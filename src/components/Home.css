@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(212, 212, 212);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+button {
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.header {
+    background-color: rgb(223, 228, 229);
+    border: 2px solid black;
+    width: 64%;
+    margin: 3% auto 3%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.main-content {
+    border: 2px solid black;
+    width: 60%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftContent {
+    padding: 1% 2%;
+}
+
+.rightContent {
+    border: 2px solid black;
+    padding: 5% 5%;
+}
+
+.count {
+    border: 1px solid black;
+    margin-top: 7%;
+    background-color: white;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+}
